@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+}
+
+section {
+  padding: 16px;
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center-main-axis {
+  justify-content: center;
+}
+
+.center-cross-axis {
+  align-items: center;
+}
